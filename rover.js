@@ -6,6 +6,8 @@ class marsRover {
     this.y = y;
     this.direction = direction;
   }
+
+
   moveForward() {
     switch (this.direction) {
       case "N":
@@ -97,17 +99,17 @@ for (let command of commands) {
 
 rover.printPosition();
 
-// // // Language: javascript
-// // // Path: rover.test.js
-const marsRover = require("./rover");
+// // // // Language: javascript
+// // // // Path: rover.test.js
+// const marsRover = require("./rover");
 
-test("rover moves forward", () => {
-    const rover = new marsRover(0, 0, "N");
-    rover.moveForward();
-    expect(rover.x).toBe(0);
-    expect(rover.y).toBe(1);
-    expect(rover.direction).toBe("N");
-});
+// test("rover moves forward", () => {
+//     const rover = new marsRover(0, 0, "N");
+//     rover.moveForward();
+//     expect(rover.x).toBe(0);
+//     expect(rover.y).toBe(1);
+//     expect(rover.direction).toBe("N");
+// });
 
 // test("rover moves backward", () => {
 //     const rover = new marsRover(0, 0, "N");
