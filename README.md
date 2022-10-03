@@ -31,5 +31,5 @@ FLFFFRFLB
 ```
 ### Expected Output:
 ```
-6 4 N
+The rover is at position 6, 4 facing N
 ```
