@@ -7,7 +7,7 @@
 * [About the problem](#About-the-problem)
 * [Setup](#setup)
 * [Input and Output](#input-and-output)
-* [Code Structure](#code-structure)
+<!-- * [Code Architecture](#code-architecture) -->
 
 ## About the problem
 
