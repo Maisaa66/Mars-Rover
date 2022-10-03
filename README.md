@@ -6,7 +6,7 @@
 ## Table of contents
 * [About the problem](#About-the-problem)
 * [Setup](#setup)
-* [Libraries] (#libraries)
+* [Libraries](#libraries)
 * [Input and Output](#input-and-output)
 <!-- * [Code Architecture](#code-architecture) -->
 
