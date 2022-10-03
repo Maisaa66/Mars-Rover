@@ -1,7 +1,8 @@
 # Mars Rover Problem
 
-- [x] Python
 - [x] Javascript
+- [x] Python
+
 
 ## Table of contents
 * [About the problem](#About-the-problem)
