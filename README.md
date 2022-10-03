@@ -1,12 +1,13 @@
 # Mars Rover Problem
 
 - [x] Python
-- [x] Java
+- [x] Javascript
 
 ## Table of contents
-* [About the problem](#About_the_problem)
+* [About the problem](#About-the-problem)
 * [Setup](#setup)
-* [Code Structure](#code_structure)
+* [Input and Output](#input-and-output)
+* [Code Structure](#code-structure)
 
 ## About the problem
 
