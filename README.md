@@ -6,6 +6,7 @@
 ## Table of contents
 * [About the problem](#About-the-problem)
 * [Setup](#setup)
+* [Libraries] (#libraries)
 * [Input and Output](#input-and-output)
 <!-- * [Code Architecture](#code-architecture) -->
 
@@ -18,9 +19,21 @@ When the rover touches down on Mars, it is initialised with it’s current coord
 
 ## Setup
 ```
+//for javascript code
+$ npm install prompt-sync
 $ node rover.js
+
+//for python code
 $ python rover.py
 ```
+## Libraries
+
+| Library |  vesion  |
+| :------ | :------: |
+| node  | 16.14.0. |
+| python   |  3.10.2  |
+| prompt-sync    |    4.2.0     |
+
 
 ### Input and Output
 
