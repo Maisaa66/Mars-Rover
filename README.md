@@ -26,12 +26,14 @@ When the rover touches down on Mars, it is initialised with it’s current coord
 | prompt-sync    |    4.2.0     |
 
 ## Setup
+### Javascript setup
 ```
-//for javascript code
 $ npm install prompt-sync
 $ node rover.js
+```
 
-//for python code
+### Python setup
+```
 $ python rover.py
 ```
 ### Input and Output
