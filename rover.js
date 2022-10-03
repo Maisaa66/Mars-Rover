@@ -1,4 +1,22 @@
+/**
+ * Do not forget to install the dependencies
+ * npm install prompt-sync
+ */
+
 const input = require("prompt-sync")({ sigint: true });
+
+
+/**
+ * Rover Object Goes Here
+ * ======================
+@param {number} x - x coordinate of the rover 
+@param {number} y - y coordinate of the rover
+@param {string} direction - direction of the rover (N, S, E, W) 
+@function turnLeft - turns the rover left
+@function turnRight - turns the rover right
+@function moveForward - moves the rover forward
+@function moveBackward - moves the rover backward
+ */
 
 class marsRover {
   constructor(x, y, direction) {
@@ -76,6 +94,7 @@ class marsRover {
     console.log(`The rover is at position ${this.x}, ${this.y} facing ${this.direction}`);
   }
 }
+
 
 const [x, y, direction] = input("Enter the starting position of the rover: ").split(" ");
 const rover = new marsRover(parseInt(x), parseInt(y), direction);
